@@ -1,2 +1,57 @@
-
-/* Your CSS Code here. */
+body{
+	background-color:blanchedalmond;
+}
+.flx{
+		display:flex;
+	list-style:none;
+}
+.nav{
+	background-color:black;
+	width:100%;
+	padding:1px;
+	display:flex;
+	border-radius:8px;
+}
+.logo{
+	font-family:cursive;
+	color:lightgoldenrodyellow;
+	font-weight:bolder;
+}
+.logo:hover{
+	cursor:pointer;
+	color:red;
+}
+.m-l{
+	margin-left:100px;
+}
+.m-l-5{
+	margin-left:20px;
+}
+.btn{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	margin-top:12px;
+	height:25px;
+	font-wweight:bolder;
+	font-family:monospace;
+	font-size:22px;
+	border:2px green solid;
+	border-radius:5px;
+}
+.btn:hover{
+	cursor:pointer;
+	background-color:green;
+}
+.card{
+	margin:10px;
+	width:60%;
+	background-color:white;
+	margin-left:20%;
+	padding:50px;
+	font-family:monospace;
+}
+h2{
+	text-align:left;
+	color:sandybrown;
+}
